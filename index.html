@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>Accesso</title>
+                <style type="text/css">
+                     a.c:hover{font-weight: bold; text-decoration:none;}
+                </style>
+	</head>
+	<body bgcolor="black" link="black" vlink="black" alink="black" onLoad="document.form1.utente.focus()">
+		<br><br><br><br><br><br><br><br><br><br>
+		<center>
+			<form action="accesso.php" method="post" name="form1">
+				<table border="0" bgcolor="green" width="300">
+					<caption><font color="white"><b>Benvenuto nella pagina di accesso!</b></font></caption>
+					<tr>
+						<td>
+							Nome utente: 								
+						</td>
+						<td>
+							<input type="text" name="utente"/>
+						</td
+					</tr>
+					<tr>
+						<td>
+							<label>Password: 								
+						</td>
+						<td>
+							<input type="password" name="password"/>
+						</td
+					</tr>
+					<tr>
+						<td align="center" colspan="3">
+							<input type="submit" name="sub" value="Entra"/>
+							<input type="reset" name="can" value="Reset"/>							
+						</td>
+					</tr>
+					<tr>
+						<td align="center" colspan="3">
+							<a style="text-decoration: none;" href="registra.html" class="c">Registrati!</a>	
+						<td>
+					</tr>
+				</table>
+			</form>
+		</center>
+	</body>
+</html>
